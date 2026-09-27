@@ -1,0 +1,29 @@
+{
+ "tool": "a2-timing-variance",
+ "generated_at": "2026-09-27T14:59:26Z",
+ "working_set_mb": 8,
+ "phase_A_baseline": {
+  "n": 20000,
+  "mean": 283.8,
+  "p50": 246,
+  "p95": 379,
+  "p99": 570,
+  "max": 81826,
+  "stdev": 846.2
+ },
+ "phase_B_neighbor_loaded": {
+  "n": 20000,
+  "mean": 318.5,
+  "p50": 259,
+  "p95": 456,
+  "p99": 682,
+  "max": 62806,
+  "stdev": 782.3
+ },
+ "phase_B_neighbor_pid": 35025,
+ "comparison": {
+  "stdev_ratio_loaded_over_baseline": 0.92,
+  "p99_delta_ns": 112,
+  "signal_detected": true
+ }
+}

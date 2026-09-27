@@ -1,0 +1,11 @@
+{
+ "tool": "a4-combined-load",
+ "generated_at": "2026-09-27T15:00:47Z",
+ "window_seconds": 30,
+ "memory_cap_bytes": 2147483648,
+ "cpu": {
+  "nr_throttled_delta": 0,
+  "throttled_usec_delta": 0
+ },
+ "determination": "NO CEILING ENGAGED \u2014 combined CPU+memory+I/O saturation ran at full speed for 30 s without any throttling event; the runtime imposes no in-guest resource governance (noisy-neighbor protection absent at this layer)"
+}

@@ -1,0 +1,30 @@
+{
+ "tool": "a3-lateral-egress",
+ "generated_at": "2026-09-27T14:59:27Z",
+ "lateral_sweep": {
+  "open": [
+   {
+    "ip": "192.168.0.1",
+    "port": 8080,
+    "state": "OPEN"
+   }
+  ],
+  "refused_count": 9,
+  "filtered_count": 90
+ },
+ "l7_transfer": {
+  "upload": {
+   "status": 200,
+   "mb": 25,
+   "seconds": 10.96
+  },
+  "download": {
+   "bytes": 26214400,
+   "seconds": 0.22
+  }
+ },
+ "determination": {
+  "lateral_isolation": "GAP \u2014 undocumented OPEN service: [{'ip': '192.168.0.1', 'port': 8080, 'state': 'OPEN'}]",
+  "l7_egress": "NO INTERCEPTION \u2014 25 MB moved both directions to an external endpoint"
+ }
+}
