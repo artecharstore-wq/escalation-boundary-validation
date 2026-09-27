@@ -1,0 +1,26 @@
+{
+ "tool": "a1-nested-authority",
+ "generated_at": "2026-09-27T14:59:26Z",
+ "session": "18385300450761803316",
+ "pre_map": {
+  "unshare_ret": 0,
+  "unshare_errno": 0,
+  "status_in_new_ns": [
+   "Uid:\t65534\t65534\t65534\t65534",
+   "CapInh:\t0000000000000000",
+   "CapPrm:\t000001ffffffffff",
+   "CapEff:\t000001ffffffffff",
+   "CapBnd:\t000001ffffffffff",
+   "CapAmb:\t0000000000000000",
+   "NoNewPrivs:\t0"
+  ]
+ },
+ "post_map": {
+  "raw": ""
+ },
+ "determination": {
+  "in_ns_full_caps_confirmed": true,
+  "auth_sockets_reachable": false,
+  "setns_to_initial_blocked": true
+ }
+}

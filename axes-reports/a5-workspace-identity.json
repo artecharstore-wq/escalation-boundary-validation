@@ -1,0 +1,23 @@
+{
+ "tool": "a5-workspace-identity",
+ "generated_at": "2026-09-27T15:00:47Z",
+ "hook_enforcement": {
+  "reject_case_rc": 1,
+  "reject_case_err": "REJECT: no ticket",
+  "accept_case_rc": 1,
+  "bypass_case_rc": 1,
+  "enforcement_verdict": "NOT ENFORCED \u2014 hooks suppressed at this layer (rc=1/1)",
+  "bypass_note": "bypass attempt failed \u2014 hook retained authority"
+ },
+ "identity": {
+  "host_keys_combined_fp": "60ee5967642290c5",
+  "authorized_keys_fp": "2446efa18b609d75",
+  "matches_prior_record": true,
+  "prior_records": [
+   "60ee5967642290c5",
+   "33e5270f2f8baed0",
+   "0a1b2c3d4e5f6071"
+  ]
+ },
+ "identity_verdict": "STATIC-GOLDEN-IMAGE \u2014 fingerprint matches prior sessions; keys are image-baked, not per-instance"
+}

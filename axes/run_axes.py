@@ -40,7 +40,7 @@ def main():
     results = []
     for axis, title, script in AXES:
         out = run(script)
-        artifact = script.replace(".py", ".json")
+        artifact = script.replace(".py", ".json").replace("_", "-")
         path = os.path.join(REPORTS, artifact)
         art = None
         if os.path.isfile(path):
